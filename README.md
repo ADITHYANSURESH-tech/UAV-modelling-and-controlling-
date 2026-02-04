@@ -1,76 +1,90 @@
 # UAV-modelling-and-controlling-
 This project focuses on modeling, control, and perception of a quadcopter using the Parrot Mambo minidrone in MATLAB/Simulink. PID and LQR controllers ensure stable flight, while Stateflow and image processing enable autonomous maneuvers, visualization, and deployment-ready simulation.
-Overview
 
-This project focuses on the modeling, simulation, control, and perception of a quadcopter using the Parrot Mambo minidrone within the MATLAB/Simulink Minidrone Virtual Lab. The work follows a model-based design approach to study quadcopter dynamics, controller performance, autonomous maneuvers, and vision-based navigation in a safe simulation environment.
-Features
+🚀 Project Summary
 
-Quadcopter dynamic modeling and simulation using MATLAB/Simulink
+This project demonstrates a complete UAV development workflow using the Parrot Mambo minidrone and MATLAB/Simulink Minidrone Virtual Lab. It focuses on quadcopter modeling, control design, autonomous planning, and vision-based perception, validated through simulation and visualization.
 
-PID and LQR control design for roll, pitch, yaw, and altitude stabilization
+The work emphasizes simulation-first development, enabling safe testing, controller tuning, and deployment-ready design.
+
+🎯 Objectives
+
+Model quadcopter dynamics in MATLAB/Simulink
+
+Design stable flight controllers
+
+Implement autonomous maneuvers
+
+Integrate vision-based perception
+
+Analyse and visualise flight performance
+
+✨ Key Features
+
+PID and LQR control for roll, pitch, yaw, and altitude
 
 Stateflow-based maneuver planning (hover, navigation, line following)
 
-Vision-based perception using RGB color thresholding and image segmentation
+Vision-based perception using RGB color thresholding
 
-X, Y, Z and roll, pitch, yaw response analysis
+X, Y, Z position and attitude response analysis
 
-3D flight visualization for behavior validation
+3D flight visualization
 
-Automatic code generation for deployment readiness
+Code-generation-ready Simulink models
 
-Tools & Technologies
+🛠 Tools & Technologies
 
 MATLAB
 
 Simulink
 
-Simulink Control Design
-
 Stateflow
 
 Image Processing Toolbox
 
-Minidrone Support Package (Parrot Mambo)
+Simulink Coder
 
-Responsibilities
+Parrot Minidrone Support Package
 
-Developed Simulink models representing quadcopter dynamics and sensor feedback
+🧠 My Responsibilities
 
-Designed and tuned PID and LQR controllers for stable flight control
+Built quadcopter simulation models using Simulink
 
-Implemented Stateflow logic for autonomous maneuver execution
+Designed and tuned PID and LQR controllers
 
-Developed image processing algorithms for blue detection and line following
+Developed Stateflow logic for autonomous behavior
 
-Analysed system performance using time-domain plots and visualization tools
+Implemented image processing for blue detection and line following
 
-Configured models for automatic C code generation using Simulink Coder
+Analysed flight responses and validated stability
 
-Results
+Prepared models for automatic code generation
 
-Achieved stable hover and trajectory tracking in simulation
+📊 Results
 
-Demonstrated accurate attitude and position control
+Achieved stable hover and controlled trajectory tracking
 
-Successfully integrated perception-based navigation using vision feedback
+Accurate roll, pitch, yaw, and altitude stabilization
 
-Validated control and planning logic through 3D visualization
+Successful perception-based navigation in simulation
 
-Ensured deployment readiness via successful code generation
+Clear validation through response plots and 3D visualization
 
-Applications
+Deployment-ready control architecture
 
-UAV control system development
+📌 Why This Project Matters
 
-Autonomous systems research
+Demonstrates UAV control systems knowledge
 
-Robotics and embedded control education
+Shows model-based design and simulation skills
 
-Simulation-driven flight testing
+Combines control, planning, and perception
 
-Author
+Relevant to UAV, robotics, aerospace, and autonomous systems roles
+
+👤 Author
 
 Adithyan S
 BSc (Hons) Mechatronics Engineering
-Focus Areas: UAVs, Control Systems, Robotics, Autonomous Systems
+Interests: UAVs, Control Systems, Robotics, Autonomous Systems
