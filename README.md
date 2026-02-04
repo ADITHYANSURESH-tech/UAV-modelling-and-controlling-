@@ -1,4 +1,4 @@
-# UAV-modelling-and-controlling-
+# UAV Control & Perception using Parrot Mambo Minidrone
 This project focuses on modeling, control, and perception of a quadcopter using the Parrot Mambo minidrone in MATLAB/Simulink. PID and LQR controllers ensure stable flight, while Stateflow and image processing enable autonomous maneuvers, visualization, and deployment-ready simulation.
 
 🚀 Project Summary
